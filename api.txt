@@ -1,0 +1,5 @@
+Python -m uvicorn main:app --reload --port 8000
+
+py -m pip install streamlit plotly
+
+streamlit run app.py
